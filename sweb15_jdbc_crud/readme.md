@@ -1,6 +1,8 @@
-== SQL 삽입 ==
+Db 생성
+1. 데이타 베이스 생성
+create database information
 
-1. 테이블 생성
+2. 테이블 생성
 create table member(
   id varchar(10) primary key,
   passwd varchar(10) not null,
